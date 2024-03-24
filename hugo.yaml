@@ -86,21 +86,21 @@ params:
 
   # color preference
 
-  # color:
-  #   textColor:
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
-  #   secondaryColor:
+  color:
+    textColor: black # default: black
+    secondaryTextColor: green
+    backgroundColor: white # default: black
+    secondaryBackgroundColor: 
+    primaryColor: red
+    secondaryColor: 
 
-  #   darkmode:
-  #     textColor:
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
+    darkmode:
+      textColor:
+      secondaryTextColor:
+      backgroundColor: black
+      secondaryBackgroundColor:
+      primaryColor:
+      secondaryColor: 
 
   # If you want to customize the menu, you can change it here
   navbar:
