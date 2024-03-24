@@ -127,7 +127,7 @@ params:
     intro: "Salut, moi c'est"
     title: "Boubakar PI."
     subtitle: "Je résoud des problèmes"
-    content: "Unf  développeur d'applications Web. J'ai tendance à utiliser les technologies Web modernes pour créer des applications qui ont fière allure, qui sont fantastiques et qui fonctionnent correctement."
+    content: "Un développeur d'applications Web. J'ai tendance à utiliser les technologies Web modernes pour créer des applications qui ont fière allure, qui sont fantastiques et qui fonctionnent correctement."
     image: /images/boubakar-PI-pdg-uvatis1.jpg
     bottomImage:
       enable: true
