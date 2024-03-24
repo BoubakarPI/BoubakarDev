@@ -86,21 +86,21 @@ params:
 
   # color preference
 
-  # color:
-  #   textColor:
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
-  #   secondaryColor:
+  color:
+    textColor: black # default: black
+    secondaryTextColor: green
+    backgroundColor: white # default: black
+    secondaryBackgroundColor:
+    primaryColor: red
+    secondaryColor:
 
-  #   darkmode:
-  #     textColor:
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
+    darkmode:
+      textColor:
+      secondaryTextColor:
+      backgroundColor: black
+      secondaryBackgroundColor:
+      primaryColor:
+      secondaryColor:
 
   # If you want to customize the menu, you can change it here
   navbar:
@@ -127,7 +127,7 @@ params:
     intro: "Salut, moi c'est"
     title: "Boubakar PI."
     subtitle: "Je résoud des problèmes"
-    content: "Un développeur d'applications Web. J'ai tendance à utiliser les technologies Web modernes pour créer des applications qui ont fière allure, qui sont fantastiques et qui fonctionnent correctement."
+    content: "Unf  développeur d'applications Web. J'ai tendance à utiliser les technologies Web modernes pour créer des applications qui ont fière allure, qui sont fantastiques et qui fonctionnent correctement."
     image: /images/boubakar-PI-pdg-uvatis1.jpg
     bottomImage:
       enable: true
