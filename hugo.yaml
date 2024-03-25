@@ -85,11 +85,7 @@ params:
     textColor: black # default: black
     secondaryTextColor: green
     backgroundColor: white # default: black
-<<<<<<< HEAD
     secondaryBackgroundColor:
-=======
-    secondaryBackgroundColor: 
->>>>>>> 7cfb8f0b5299a2ced6492b2a8cdf24fc235a5368
     primaryColor: red
     secondaryColor: 
 
@@ -99,11 +95,7 @@ params:
       backgroundColor: black
       secondaryBackgroundColor:
       primaryColor:
-<<<<<<< HEAD
       secondaryColor:
-=======
-      secondaryColor: 
->>>>>>> 7cfb8f0b5299a2ced6492b2a8cdf24fc235a5368
 
   # If you want to customize the menu, you can change it here
   navbar:
