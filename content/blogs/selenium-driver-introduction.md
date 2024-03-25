@@ -19,7 +19,7 @@ Selenium WebDriver est un outil populaire utilisé dans le développement d'appl
 
 ### Installation de Selenium WebDriver
 
-Pour commencer à utiliser Selenium WebDriver, vous devez d'abord installer les pilotes spécifiques au navigateur que vous souhaitez utiliser. Par exemple, si vous souhaitez exécuter vos tests dans le navigateur Chrome, vous devez installer le pilote ChromeDriver. De même, pour Firefox, vous devez installer le pilote GeckoDriver. Ces pilotes permettent à Selenium WebDriver de communiquer avec les navigateurs. [[2]](https://www.selenium.dev/documentation/)
+Pour commencer à utiliser Selenium WebDriver, vous devez d'abord installer les pilotes spécifiques au navigateur que vous souhaitez utiliser. Par exemple, si vous souhaitez exécuter vos tests dans le navigateur Chrome, vous devez installer le pilote ChromeDriver. De même, pour Firefox, vous devez installer le pilote GeckoDriver. Ces pilotes permettent à Selenium WebDriver de communiquer avec les navigateurs. [[1]](https://www.selenium.dev/documentation/)
 
 ### Exemple de code en Python
 
