@@ -131,7 +131,3 @@ Selenium WebDriver est un outil puissant pour automatiser les tests sur différe
 3. [Selenium WebDriver | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-selenium-with-python-and-3-7)
 
 ---
-Learn more:
-1. [WebDriver | Selenium](https://www.selenium.dev/documentation/webdriver/)
-2. [The Selenium Browser Automation Project | Selenium](https://www.selenium.dev/documentation/)
-3. [Selenium WebDriver | DigitalOcean](https://www.digitalocean.com/community/tutorials/selenium-webdriver)
