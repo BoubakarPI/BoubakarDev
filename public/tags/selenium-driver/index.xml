@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SElenium Driver on Boubakar PI | Profil</title>
+    <link>//localhost:1313/tags/selenium-driver/</link>
+    <description>Recent content in SElenium Driver on Boubakar PI | Profil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sat, 03 Apr 2021 23:29:21 +0530</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/selenium-driver/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Syntax</title>
+      <link>//localhost:1313/blogs/markdown-doc/</link>
+      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
+      <guid>//localhost:1313/blogs/markdown-doc/</guid>
+      <description>Utilisation de Selenium Driver Selenium WebDriver est un outil populaire utilisé dans le développement d&amp;rsquo;applications web pour automatiser les tests sur différents navigateurs. Il permet de contrôler le navigateur et d&amp;rsquo;effectuer des opérations sur les éléments HTML tels que cliquer, remplir des champs de formulaire, etc. [3]&#xA;Installation de Selenium WebDriver Pour commencer à utiliser Selenium WebDriver, vous devez d&amp;rsquo;abord installer les pilotes spécifiques au navigateur que vous souhaitez utiliser. Par exemple, si vous souhaitez exécuter vos tests dans le navigateur Chrome, vous devez installer le pilote ChromeDriver.</description>
+    </item>
+  </channel>
+</rss>

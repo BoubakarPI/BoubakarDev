@@ -1,16 +1,16 @@
 ---
-title: "Markdown Syntax"
-date: 2021-04-03T23:29:21+05:30
+title: Bases de Selenium Driver
+date: 2024-03-25T12:59:20.970Z
 draft: false
-github_link: "https://github.com/gurusabarish/hugo-profile"
-author: "Gurusabarish"
+github_link: https://github.com/gurusabarish/hugo-profile
+author: Boubakar PI
 tags:
-  - Syntaxe Markdown
-  - Code
-  - Hugo
+    - Machine learning
+    - Python
+    - Selenium Driver
 image: /images/Markdown.webp
 description: ""
-toc:
+toc: null
 ---
 
 ## Utilisation de Selenium Driver
