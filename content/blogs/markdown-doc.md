@@ -25,7 +25,7 @@ En utilisant le Markdown, vous pouvez :
 - Créer des **titres** et **sous-titres** :
     Utilisez des symboles `#` pour créer des titres de différents niveaux. Par exemple :
 
--Mettre en forme du texte en **gras**, en **italique** ou en **souligné** :
+- Mettre en forme du texte en **gras**, en **italique** ou en **souligné** :
    - Utilisez des astérisques (`*`) ou des tirets bas (`_`) pour mettre en forme le texte. Par exemple :
      - `**Texte en gras**` pour afficher du texte en gras.
      - `*Texte en italique*` pour afficher du texte en italique.
