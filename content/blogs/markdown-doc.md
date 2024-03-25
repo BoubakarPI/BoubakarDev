@@ -23,11 +23,9 @@ Le **Markdown Markup** est un langage de balisage léger qui simplifie la créat
 En utilisant le Markdown, vous pouvez :
 
 - Créer des **titres** et **sous-titres** :
-   - Utilisez des symboles `#` pour créer des titres de différents niveaux. Par exemple :
-     - `# Titre 1` pour un titre de premier niveau.
-     - `## Titre 2` pour un sous-titre de deuxième niveau.
+    Utilisez des symboles `#` pour créer des titres de différents niveaux. Par exemple :
 
-2. Mettre en forme du texte en **gras**, en **italique** ou en **souligné** :
+-Mettre en forme du texte en **gras**, en **italique** ou en **souligné** :
    - Utilisez des astérisques (`*`) ou des tirets bas (`_`) pour mettre en forme le texte. Par exemple :
      - `**Texte en gras**` pour afficher du texte en gras.
      - `*Texte en italique*` pour afficher du texte en italique.
