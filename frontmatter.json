@@ -1,0 +1,17 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.content.pageFolders": [
+    {
+      "path": "[[workspace]]/themes/hugo-profile/exampleSite/content/blogs",
+      "title": "blogs"
+    },
+    {
+      "title": "blogs",
+      "path": "[[workspace]]/content/blogs"
+    }
+  ],
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.git.enabled": true,
+  "frontMatter.preview.host": "http://localhost:1313"
+}
