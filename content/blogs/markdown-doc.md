@@ -13,44 +13,128 @@ description: ""
 toc:
 ---
 
-## Introduction
-Une brève introduction sur le **Balisage Markdown** en utilisant la syntaxe Markdown :
+## Utilisation de Selenium Driver
+
+Selenium WebDriver est un outil populaire utilisé dans le développement d'applications web pour automatiser les tests sur différents navigateurs. Il permet de contrôler le navigateur et d'effectuer des opérations sur les éléments HTML tels que cliquer, remplir des champs de formulaire, etc. [[3]](https://www.digitalocean.com/community/tutorials/selenium-webdriver)
+
+### Installation de Selenium WebDriver
+
+Pour commencer à utiliser Selenium WebDriver, vous devez d'abord installer les pilotes spécifiques au navigateur que vous souhaitez utiliser. Par exemple, si vous souhaitez exécuter vos tests dans le navigateur Chrome, vous devez installer le pilote ChromeDriver. De même, pour Firefox, vous devez installer le pilote GeckoDriver. Ces pilotes permettent à Selenium WebDriver de communiquer avec les navigateurs. [[2]](https://www.selenium.dev/documentation/)
+
+### Exemple de code en Java
+
+Voici un exemple de code en Java utilisant Selenium WebDriver pour ouvrir le site web de Selenium et ensuite fermer le navigateur :
+
+```java
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class HelloSelenium {
+    public static void main(String[] args) {
+        WebDriver driver = new ChromeDriver();
+
+        driver.get("https://selenium.dev");
+
+        driver.quit();
+    }
+}
+```
+[[2]](https://www.selenium.dev/documentation/)
+
+### Exemple de code en Python
+
+Voici un exemple de code en Python utilisant Selenium WebDriver pour ouvrir le site web de Selenium et ensuite fermer le navigateur :
+
+```python
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+driver.get("https://selenium.dev")
+driver.quit()
+```
+[[2]](https://www.selenium.dev/documentation/)
+
+### Exemple de code en C#
+
+Voici un exemple de code en C# utilisant Selenium WebDriver pour ouvrir le site web de Selenium et ensuite fermer le navigateur :
+
+```csharp
+using OpenQA.Selenium.Chrome;
+
+namespace SeleniumDocs.Hello
+{
+    public static class HelloSelenium
+    {
+        public static void Main()
+        {
+            var driver = new ChromeDriver();
+            driver.Navigate().GoToUrl("https://selenium.dev");
+            driver.Quit();
+        }
+    }
+}
+```
+[[2]](https://www.selenium.dev/documentation/)
+
+### Exemple de code en Ruby
+
+Voici un exemple de code en Ruby utilisant Selenium WebDriver pour ouvrir le site web de Selenium et ensuite fermer le navigateur :
+
+```ruby
+require 'selenium-webdriver'
+
+driver = Selenium::WebDriver.for :chrome
+driver.get 'https://selenium.dev'
+driver.quit
+```
+[[2]](https://www.selenium.dev/documentation/)
+
+### Exemple de code en JavaScript
+
+Voici un exemple de code en JavaScript utilisant Selenium WebDriver pour ouvrir le site web de Selenium et ensuite fermer le navigateur :
+
+```javascript
+const {Builder, Browser} = require('selenium-webdriver');
+
+(async function helloSelenium() {
+    let driver = await new Builder().forBrowser(Browser.CHROME).build();
+    await driver.get('https://selenium.dev');
+    await driver.quit();
+})();
+```
+[[2]](https://www.selenium.dev/documentation/)
+
+### Exemple de code en Kotlin
+
+Voici un exemple de code en Kotlin utilisant Selenium WebDriver pour ouvrir le site web de Selenium et ensuite fermer le navigateur :
+
+```kotlin
+package dev.selenium.hello
+
+import org.openqa.selenium.chrome.ChromeDriver
+
+fun main() {
+    val driver = ChromeDriver()
+    driver.get("https://selenium.dev")
+    driver.quit()
+}
+```
+[[2]](https://www.selenium.dev/documentation/)
+
+## Conclusion
+
+Selenium WebDriver est un outil puissant pour automatiser les tests sur différents navigateurs. En utilisant les pilotes spécifiques au navigateur et en écrivant du code avec les langages de programmation pris en charge, vous pouvez contrôler le navigateur et effectuer des opérations sur les éléments HTML. Cela facilite le processus de test des applications web sur différentes plates-formes et navigateurs.
+
+## Sources
+1. [WebDriver | Selenium](https://www.selenium.dev/documentation/en/webdriver/)
+2. [The Selenium Browser Automation Project | Selenium](https://www.selenium.dev/documentation/en/)
+3. [Selenium WebDriver | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-selenium-with-python-and-3-7)
 
 ---
-
-Le **Markdown Markup** est un langage de balisage léger qui simplifie la création de contenu pour le Web. Contrairement aux balises HTML complexes, le Markdown permet de formater du texte de manière simple et intuitive. Il est largement utilisé par les blogueurs, les écrivains et les développeurs pour rédiger des articles, des documents et des pages Web.
-
-En utilisant le Markdown, vous pouvez :
-
-- Créer des **titres** et **sous-titres** :
-    Utilisez des symboles `#` pour créer des titres de différents niveaux. Par exemple :
-
-- Mettre en forme du texte en **gras**, en **italique** ou en **souligné** :
-   - Utilisez des astérisques (`*`) ou des tirets bas (`_`) pour mettre en forme le texte. Par exemple :
-     - `**Texte en gras**` pour afficher du texte en gras.
-     - `*Texte en italique*` pour afficher du texte en italique.
-     - `__Texte souligné__` pour afficher du texte souligné.
-
-3. Créer des **listes ordonnées** et **non ordonnées** :
-   - Utilisez `-` ou `1.` suivi d'un espace pour créer des listes. Par exemple :
-     - `- Élément 1`
-     - `- Élément 2`
-     - `1. Élément A`
-     - `1. Élément B`
-
-4. Insérer des **liens** et des **images** :
-   - Pour les liens, entourez le texte du lien avec des crochets `[]` et ajoutez l'URL entre parenthèses `()`. Par exemple :
-     - `[Texte du lien](https://www.example.com)`
-   - Pour les images, utilisez la même syntaxe, mais ajoutez un point d'exclamation devant les crochets. Par exemple :
-     - `![Texte alternatif de l'image](https://www.example.com/image.jpg)`
-
-
-
----
-
-[**Lien vers l'article complet**](https://fastercapital.com/fr/contenu/Markdown-Markup---simplifier-la-creation-de-contenu-avec-le-balisage-Markdown.html)
-
-
+Learn more:
+1. [WebDriver | Selenium](https://www.selenium.dev/documentation/webdriver/)
+2. [The Selenium Browser Automation Project | Selenium](https://www.selenium.dev/documentation/)
+3. [Selenium WebDriver | DigitalOcean](https://www.digitalocean.com/community/tutorials/selenium-webdriver)
 ## Paragraph
 
 Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
