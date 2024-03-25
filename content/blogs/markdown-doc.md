@@ -44,7 +44,7 @@ En utilisant le Markdown, vous pouvez :
    - Pour les images, utilisez la même syntaxe, mais ajoutez un point d'exclamation devant les crochets. Par exemple :
      - `![Texte alternatif de l'image](https://www.example.com/image.jpg)`
 
-En utilisant le Markdown Markup, vous pouvez créer du contenu de manière efficace et élégante, en mettant l'accent sur le message que vous souhaitez transmettre. N'hésitez pas à explorer davantage cette méthode pour améliorer vos publications en ligne !
+
 
 ---
 
