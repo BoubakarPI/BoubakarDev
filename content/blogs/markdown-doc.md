@@ -1,5 +1,5 @@
 ---
-title: Bases de Selenium Driver
+title: Les Bases de Selenium Driver
 date: 2024-03-25T12:59:20.970Z
 draft: false
 github_link: https://github.com/gurusabarish/hugo-profile
@@ -9,7 +9,7 @@ tags:
     - Python
     - Selenium Driver
 image: /images/Markdown.webp
-description: ""
+description: Selenium WebDriver est un outil populaire utilisé dans le développement d'applications web pour automatiser les tests sur différents navigateurs.
 toc: null
 ---
 
