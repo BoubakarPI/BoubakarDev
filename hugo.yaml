@@ -71,7 +71,7 @@ params:
 
   theme:
     # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+     defaultTheme: "light" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -83,7 +83,7 @@ params:
 
   color:
     textColor: black # default: black
-    secondaryTextColor: blue
+    secondaryTextColor: green
     backgroundColor: white # default: black
     secondaryBackgroundColor:
     primaryColor: red
