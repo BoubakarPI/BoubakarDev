@@ -14,8 +14,7 @@ toc:
 ---
 
 ## Introduction
----
-Bien sûr ! Voici une brève introduction sur le **Balisage Markdown** en utilisant la syntaxe Markdown :
+Une brève introduction sur le **Balisage Markdown** en utilisant la syntaxe Markdown :
 
 ---
 
