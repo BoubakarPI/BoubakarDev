@@ -2,7 +2,7 @@
 title: Les Bases de Selenium Driver
 date: 2024-03-25T12:59:20.970Z
 draft: false
-github_link: https://github.com/gurusabarish/hugo-profile
+github_link: https://github.com/BoubakarPI
 author: Boubakar PI
 tags:
   - Machine learning
@@ -33,7 +33,6 @@ driver.get("https://selenium.dev")
 driver.quit()
 ```
 
-
 ### Exemple de code en Java
 
 Voici un exemple de code en Java utilisant Selenium WebDriver pour ouvrir le site web de Selenium et ensuite fermer le navigateur :
@@ -52,8 +51,6 @@ public class HelloSelenium {
     }
 }
 ```
-
-
 
 ### Exemple de code en C#
 
@@ -76,7 +73,6 @@ namespace SeleniumDocs.Hello
 }
 ```
 
-
 ### Exemple de code en Ruby
 
 Voici un exemple de code en Ruby utilisant Selenium WebDriver pour ouvrir le site web de Selenium et ensuite fermer le navigateur :
@@ -89,21 +85,19 @@ driver.get 'https://selenium.dev'
 driver.quit
 ```
 
-
 ### Exemple de code en JavaScript
 
 Voici un exemple de code en JavaScript utilisant Selenium WebDriver pour ouvrir le site web de Selenium et ensuite fermer le navigateur :
 
 ```javascript
-const {Builder, Browser} = require('selenium-webdriver');
+const { Builder, Browser } = require("selenium-webdriver");
 
 (async function helloSelenium() {
-    let driver = await new Builder().forBrowser(Browser.CHROME).build();
-    await driver.get('https://selenium.dev');
-    await driver.quit();
+  let driver = await new Builder().forBrowser(Browser.CHROME).build();
+  await driver.get("https://selenium.dev");
+  await driver.quit();
 })();
 ```
-
 
 ### Exemple de code en Kotlin
 
@@ -121,12 +115,12 @@ fun main() {
 }
 ```
 
-
 ## Conclusion
 
 Selenium WebDriver est un outil puissant pour automatiser les tests sur différents navigateurs. En utilisant les pilotes spécifiques au navigateur et en écrivant du code avec les langages de programmation pris en charge, vous pouvez contrôler le navigateur et effectuer des opérations sur les éléments HTML. Cela facilite le processus de test des applications web sur différentes plates-formes et navigateurs.
 
 ## Sources
+
 1. [WebDriver | Selenium](https://www.selenium.dev/documentation/en/webdriver/)
 2. [The Selenium Browser Automation Project | Selenium](https://www.selenium.dev/documentation/en/)
 3. [Selenium WebDriver | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-selenium-with-python-and-3-7)
