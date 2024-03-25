@@ -15,11 +15,24 @@ toc: null
 
 ## Utilisation de Selenium Driver
 
-Selenium WebDriver est un outil populaire utilisé dans le développement d'applications web pour automatiser les tests sur différents navigateurs. Il permet de contrôler le navigateur et d'effectuer des opérations sur les éléments HTML tels que cliquer, remplir des champs de formulaire, etc. [[3]](https://www.digitalocean.com/community/tutorials/selenium-webdriver)
+Selenium WebDriver est un outil populaire utilisé dans le développement d'applications web pour automatiser les tests sur différents navigateurs. Il permet de contrôler le navigateur et d'effectuer des opérations sur les éléments HTML tels que cliquer, remplir des champs de formulaire, etc.
 
 ### Installation de Selenium WebDriver
 
 Pour commencer à utiliser Selenium WebDriver, vous devez d'abord installer les pilotes spécifiques au navigateur que vous souhaitez utiliser. Par exemple, si vous souhaitez exécuter vos tests dans le navigateur Chrome, vous devez installer le pilote ChromeDriver. De même, pour Firefox, vous devez installer le pilote GeckoDriver. Ces pilotes permettent à Selenium WebDriver de communiquer avec les navigateurs. [[2]](https://www.selenium.dev/documentation/)
+
+### Exemple de code en Python
+
+Voici un exemple de code en Python utilisant Selenium WebDriver pour ouvrir le site web de Selenium et ensuite fermer le navigateur :
+
+```python
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+driver.get("https://selenium.dev")
+driver.quit()
+```
+[[1]](https://www.selenium.dev/documentation/)
 
 ### Exemple de code en Java
 
@@ -41,18 +54,6 @@ public class HelloSelenium {
 ```
 [[2]](https://www.selenium.dev/documentation/)
 
-### Exemple de code en Python
-
-Voici un exemple de code en Python utilisant Selenium WebDriver pour ouvrir le site web de Selenium et ensuite fermer le navigateur :
-
-```python
-from selenium import webdriver
-
-driver = webdriver.Chrome()
-driver.get("https://selenium.dev")
-driver.quit()
-```
-[[2]](https://www.selenium.dev/documentation/)
 
 ### Exemple de code en C#
 
