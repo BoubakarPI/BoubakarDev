@@ -83,11 +83,11 @@ params:
 
   color:
     textColor: black # default: black
-    secondaryTextColor: green
+    secondaryTextColor: blue
     backgroundColor: white # default: black
     secondaryBackgroundColor:
     primaryColor: red
-    secondaryColor:
+    secondaryColor: 
 
     darkmode:
       textColor:
