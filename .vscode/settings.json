@@ -11,5 +11,15 @@
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
   "frontMatter.preview.host": "http://localhost:1313",
-  "frontMatter.git.enabled": true
+  "frontMatter.git.enabled": true,
+  "frontMatter.content.pageFolders": [
+    {
+      "path": "[[workspace]]/themes/hugo-profile/exampleSite/content/blogs",
+      "title": "blogs"
+    },
+    {
+      "title": "blogs",
+      "path": "[[workspace]]/content/blogs"
+    }
+  ]
 }
