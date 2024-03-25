@@ -5,9 +5,9 @@ draft: false
 github_link: https://github.com/gurusabarish/hugo-profile
 author: Boubakar PI
 tags:
-    - Machine learning
-    - Python
-    - Selenium Driver
+  - Machine learning
+  - Python
+  - Selenium Driver
 image: /images/Selenium-WebDriver--by-BoubakarPI.webp
 description: Selenium WebDriver est un outil populaire utilisé dans le développement d'applications web pour automatiser les tests sur différents navigateurs.
 toc: null
