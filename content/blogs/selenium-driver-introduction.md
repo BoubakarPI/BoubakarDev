@@ -2,7 +2,7 @@
 title: Les Bases de Selenium Driver
 date: 2024-03-25T12:59:20.970Z
 draft: false
-github_link: https://github.com/gurusabarish/hugo-profile
+github_link: https://github.com/BoubakarPI
 author: Boubakar PI
 tags:
   - Machine learning
