@@ -32,7 +32,7 @@ driver = webdriver.Chrome()
 driver.get("https://selenium.dev")
 driver.quit()
 ```
-[[1]](https://www.selenium.dev/documentation/)
+
 
 ### Exemple de code en Java
 
@@ -52,7 +52,7 @@ public class HelloSelenium {
     }
 }
 ```
-[[2]](https://www.selenium.dev/documentation/)
+
 
 
 ### Exemple de code en C#
@@ -75,7 +75,7 @@ namespace SeleniumDocs.Hello
     }
 }
 ```
-[[2]](https://www.selenium.dev/documentation/)
+
 
 ### Exemple de code en Ruby
 
@@ -88,7 +88,7 @@ driver = Selenium::WebDriver.for :chrome
 driver.get 'https://selenium.dev'
 driver.quit
 ```
-[[2]](https://www.selenium.dev/documentation/)
+
 
 ### Exemple de code en JavaScript
 
@@ -103,7 +103,7 @@ const {Builder, Browser} = require('selenium-webdriver');
     await driver.quit();
 })();
 ```
-[[2]](https://www.selenium.dev/documentation/)
+
 
 ### Exemple de code en Kotlin
 
@@ -120,7 +120,7 @@ fun main() {
     driver.quit()
 }
 ```
-[[2]](https://www.selenium.dev/documentation/)
+
 
 ## Conclusion
 
