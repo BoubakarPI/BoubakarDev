@@ -13,43 +13,6 @@ description: ""
 toc:
 ---
 
-## Introduction
-Une brève introduction sur le **Balisage Markdown** en utilisant la syntaxe Markdown :
-
----
-
-Le **Markdown Markup** est un langage de balisage léger qui simplifie la création de contenu pour le Web. Contrairement aux balises HTML complexes, le Markdown permet de formater du texte de manière simple et intuitive. Il est largement utilisé par les blogueurs, les écrivains et les développeurs pour rédiger des articles, des documents et des pages Web.
-
-En utilisant le Markdown, vous pouvez :
-
-- Créer des **titres** et **sous-titres** :
-    Utilisez des symboles `#` pour créer des titres de différents niveaux. Par exemple :
-
-- Mettre en forme du texte en **gras**, en **italique** ou en **souligné** :
-   - Utilisez des astérisques (`*`) ou des tirets bas (`_`) pour mettre en forme le texte. Par exemple :
-     - `**Texte en gras**` pour afficher du texte en gras.
-     - `*Texte en italique*` pour afficher du texte en italique.
-     - `__Texte souligné__` pour afficher du texte souligné.
-
-3. Créer des **listes ordonnées** et **non ordonnées** :
-   - Utilisez `-` ou `1.` suivi d'un espace pour créer des listes. Par exemple :
-     - `- Élément 1`
-     - `- Élément 2`
-     - `1. Élément A`
-     - `1. Élément B`
-
-4. Insérer des **liens** et des **images** :
-   - Pour les liens, entourez le texte du lien avec des crochets `[]` et ajoutez l'URL entre parenthèses `()`. Par exemple :
-     - `[Texte du lien](https://www.example.com)`
-   - Pour les images, utilisez la même syntaxe, mais ajoutez un point d'exclamation devant les crochets. Par exemple :
-     - `![Texte alternatif de l'image](https://www.example.com/image.jpg)`
-
-
-
----
-
-[**Lien vers l'article complet**](https://fastercapital.com/fr/contenu/Markdown-Markup---simplifier-la-creation-de-contenu-avec-le-balisage-Markdown.html)
-
 
 ## Paragraph
 
