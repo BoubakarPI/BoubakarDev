@@ -168,7 +168,7 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
+      - job: "Développeur de logiciels"
         company: "Facebook"
         companyUrl: "https://example.com"
         date: "Jan 2022 - present"
