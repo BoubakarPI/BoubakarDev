@@ -138,7 +138,7 @@ params:
         - icon: fab fa-github
           url: https://github.com/BoubakarPI/
         - icon: fab fa-x-twitter
-          url: https://x.com/uvatis
+          url: https://x.com/boubakarpi
       customIcons:
         - icon: /fav.png
           url: "https://example.com"
