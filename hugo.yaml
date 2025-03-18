@@ -203,16 +203,14 @@ params:
     # title: "Lycéé Scientifique National de Bobo"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Baccalauréat C"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
+          name: "Lycéé Scientifique National de Bobo"
+          url: "https://www.lsnb-bf.org"
+        date: "2020 - 2023"
         GPA: "3.8 out of 5.0"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          
       - title: "Bachelor of Science in Computer Science"
         school:
           name: "Massachusetts Institute of Technology"
