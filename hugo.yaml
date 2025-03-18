@@ -149,17 +149,17 @@ params:
     title: "Qui suis-je ?"
     image: "/images/me.png"
     content: |-
-      Je suis un développeur de logiciels passionné par le développement Web. J'ai une formation en informatique et en Cybersécurité, et J'ai un fort intérêt pour l'intersection de la technologie et de la 3D Je travaille actuellement en tant que développeur web et mobile à [Uvatis.](https://uvatis.com) à Ouagadougou, au Burkina Faso.
+      Je suis un développeur fullstack javascript. J'ai une formation en backend avec des architectures Hexagonal et MVC. Je travaille actuellement en tant que développeur web et mobile à [Uvatis.](https://uvatis.com) à Ouagadougou, au Burkina Faso.
 
       Je travaille actuellement sur un projet qui servira à aider les gens à trouver le meilleur moyen de se déplacer en ville.
     skills:
       enable: true
-      title: "Voici quelques technologies avec lesquelles j'ai travaillé récemment:"
+      title: "Voici quelques frameworks avec lesquelles j'ai travaillé récemment:"
       items:
-        - "HTML"
-        - "CSS"
-        - "PHP"
-        - "Python"
+        - "AdonisJS"
+        - "Spring Boot"
+        - "Laravel"
+        - "Django"
         - "Flutter"
         - "Hugo"
 
@@ -168,70 +168,39 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Développeur de logiciels"
-        company: "Facebook"
-        companyUrl: "https://example.com"
+      - job: "Developpeur fullstack"
+        company: "UVatis"
+        companyUrl: "https://uvatis.com"
         date: "Jan 2022 - present"
         featuredLink:
           enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          name: "Voir les projets"
+          url: "https://www.uvatis.com"
+        content: "Je passe la majorité de mon temps à réléver les défis à [Uvatis LLC](https://www.uvatis.com) Ouagadougou, Burkina Faso."
 
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+      - job: "Developpeur mobile / web"
+        company: "Fasoamaths"
+        companyUrl: "https://fasomaths.uvatis.com"
+        date: "Sep 2024 - Fev 2025"
         featuredLink:
           enable: true
-          url: "https://example.com"
+          url: "https://fasomaths.uvatis.com"
         info:
           enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          content: J'étais chargé de developper le backend et les différents fronts (web, mobile).
         content: |
           I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - Backend avec nodejs (Adonisjs).
+          - Front web (VueJs avec Nuxt)
+          - Front mobile (Flutter)
+          - CI/CD
 
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
+      
   # Education
   education:
     enable: true
-    # title: "Custom Name"
+    # title: "Lycéé Scientifique National de Bobo"
     index: false
     items:
       - title: "Master of Business Administration"
